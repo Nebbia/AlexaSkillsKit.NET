@@ -77,7 +77,7 @@
     <Compile Include="Speechlet\Abstractions\IHttpContent.cs" />
     <Compile Include="Speechlet\Abstractions\IHttpHeaders.cs" />
     <Compile Include="Speechlet\Abstractions\IHttpResponseFactory.cs" />
-    <Compile Include="Speechlet\Impl\SystemHttpResponseFactory.cs" />
+    <Compile Include="Speechlet\Impl\ResponseFactory.cs" />
     <Compile Include="Speechlet\IntentRequest.cs" />
     <Compile Include="Speechlet\ISpeechlet.cs" />
     <Compile Include="Speechlet\ISpeechletAsync.cs" />

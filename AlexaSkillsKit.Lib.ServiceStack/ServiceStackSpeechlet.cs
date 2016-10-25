@@ -9,7 +9,7 @@ using ServiceStack.Web;
 
 namespace AlexaSkillsKit.Lib.ServiceStack
 {
-    public abstract class ServiceStackSpeechlet : BaseSpeechlet<ServiceStackRequestAdapter, HttpResult, ServiceStackResponseFactory, IRequest>
+    public abstract class ServiceStackSpeechlet : BaseSpeechlet<RequestAdapter, HttpResult, ResponseFactory, IRequest>
     {
        
     }

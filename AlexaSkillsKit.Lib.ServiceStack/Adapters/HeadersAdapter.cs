@@ -5,11 +5,11 @@ using ServiceStack.Web;
 
 namespace AlexaSkillsKit.Lib.ServiceStack.Adapters
 {
-    public class ServiceStackHeaders : IHttpHeaders
+    public class HeadersAdapter : IHttpHeaders
     {
         private readonly IRequest _request;
 
-        public ServiceStackHeaders(IRequest request)
+        public HeadersAdapter(IRequest request)
         {
             _request = request;
         }

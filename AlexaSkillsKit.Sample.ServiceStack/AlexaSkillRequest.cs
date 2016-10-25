@@ -1,6 +1,6 @@
 using ServiceStack;
 
-namespace AlexaSkillsKit.Sample.ServiceStack.Services
+namespace AlexaSkillsKit.Sample.ServiceStack
 {
     [Route("/skill")]
     public class AlexaSkillRequest

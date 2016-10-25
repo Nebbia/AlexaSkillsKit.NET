@@ -106,9 +106,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\AlexaSkillRequest.cs" />
-    <Compile Include="Services\HelloService.cs" />
-    <Compile Include="Services\SkillService.cs" />
+    <Compile Include="AlexaSkillRequest.cs" />
+    <Compile Include="SkillService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\AlexaSkillsKit.Lib.ServiceStack\AlexaSkillsKit.Lib.ServiceStack.csproj">

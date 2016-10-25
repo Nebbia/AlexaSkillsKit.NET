@@ -5,11 +5,11 @@ using ServiceStack.Web;
 
 namespace AlexaSkillsKit.Lib.ServiceStack.Adapters
 {
-    public class ServiceStackContent :IHttpContent
+    public class ContentAdapter :IHttpContent
     {
         private readonly IRequest _httpRequest;
 
-        public ServiceStackContent(IRequest httpRequest)
+        public ContentAdapter(IRequest httpRequest)
         {
             _httpRequest = httpRequest;
         }

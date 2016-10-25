@@ -5,10 +5,8 @@ using AlexaSkillsKit.Speechlet.Abstractions;
 
 namespace AlexaSkillsKit.Speechlet.Impl
 {
-    public class SystemHttpResponseFactory : IHttpResponseFactory<HttpResponseMessage>
+    public class ResponseFactory : IHttpResponseFactory<HttpResponseMessage>
     {
-        public HttpRequestMessage Request { get; set; }
-
         public HttpResponseMessage BadRequest(string reason)
         {
             return new HttpResponseMessage(HttpStatusCode.BadRequest)
