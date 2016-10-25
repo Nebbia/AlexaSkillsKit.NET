@@ -31,6 +31,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Local|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Local\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.1.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\BouncyCastle.1.8.1\lib\BouncyCastle.Crypto.dll</HintPath>
@@ -63,6 +72,12 @@
     <Compile Include="Sdk.cs" />
     <Compile Include="Slu\Intent.cs" />
     <Compile Include="Slu\Slot.cs" />
+    <Compile Include="Speechlet\Abstractions\BaseSpeechlet.cs" />
+    <Compile Include="Speechlet\Abstractions\IAbstractHttpRequest.cs" />
+    <Compile Include="Speechlet\Abstractions\IHttpContent.cs" />
+    <Compile Include="Speechlet\Abstractions\IHttpHeaders.cs" />
+    <Compile Include="Speechlet\Abstractions\IHttpResponseFactory.cs" />
+    <Compile Include="Speechlet\Impl\SystemHttpResponseFactory.cs" />
     <Compile Include="Speechlet\IntentRequest.cs" />
     <Compile Include="Speechlet\ISpeechlet.cs" />
     <Compile Include="Speechlet\ISpeechletAsync.cs" />

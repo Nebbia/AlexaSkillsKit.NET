@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Lib", "AlexaSkillsKit.Lib\AlexaSkillsKit.Lib.csproj", "{0EC882A8-AACA-4BD5-B449-72F20FDB8586}"
 EndProject
@@ -16,24 +16,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D35AD7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Tests", "AlexaSkillsKit.Tests\AlexaSkillsKit.Tests.csproj", "{D0125A95-FD63-4A33-9220-206D4A1A14F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Sample.ServiceStack", "AlexaSkillsKit.Sample.ServiceStack\AlexaSkillsKit.Sample.ServiceStack.csproj", "{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Lib.ServiceStack", "AlexaSkillsKit.Lib.ServiceStack\AlexaSkillsKit.Lib.ServiceStack.csproj", "{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Local|Any CPU = Local|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Local|Any CPU.Build.0 = Local|Any CPU
 		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC882A8-AACA-4BD5-B449-72F20FDB8586}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Local|Any CPU.Build.0 = Local|Any CPU
 		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FDEF793-5832-4D37-B0D5-62C55AB1C12E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Local|Any CPU.Build.0 = Local|Any CPU
 		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0125A95-FD63-4A33-9220-206D4A1A14F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Local|Any CPU.Build.0 = Local|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1424AA-4296-44BC-981A-8BAB92C8C3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Local|Any CPU.ActiveCfg = Local|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Local|Any CPU.Build.0 = Local|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA2D3CB-8614-46BC-9008-6CDB1AF830B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

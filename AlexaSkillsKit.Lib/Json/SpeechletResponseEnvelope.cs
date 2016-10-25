@@ -12,6 +12,7 @@ namespace AlexaSkillsKit.Json
     {
         private static JsonSerializerSettings _serializerSettings = new JsonSerializerSettings() {
             NullValueHandling = NullValueHandling.Ignore, 
+            Formatting = Formatting.None,
             ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver(),
             Converters = new List<JsonConverter> { new Newtonsoft.Json.Converters.StringEnumConverter() }
         };
