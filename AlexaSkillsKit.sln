@@ -9,9 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Sample", "Al
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D35AD75F-7926-41CB-8C8D-BB36370F3E76}"
 	ProjectSection(SolutionItems) = preProject
-		.nuget\AlexaSkillsKit.Lib.nuspec = .nuget\AlexaSkillsKit.Lib.nuspec
 		.nuget\NuGet.Config = .nuget\NuGet.Config
 		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\pack.debug.cmd = .nuget\pack.debug.cmd
+		.nuget\pack.release.cmd = .nuget\pack.release.cmd
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaSkillsKit.Tests", "AlexaSkillsKit.Tests\AlexaSkillsKit.Tests.csproj", "{D0125A95-FD63-4A33-9220-206D4A1A14F0}"

@@ -103,6 +103,7 @@
     <Compile Include="UI\SimpleCard.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="AlexaSkillsKit.Lib.nuspec" />
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
