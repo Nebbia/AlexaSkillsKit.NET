@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Nebbia.AlexaSkillsKit.ServiceStack</id>
-    <version>1.6.0-alpha</version>
+    <version>1.6.0</version>
     <title>AlexaSkillsKit.NET ServiceStack</title>
     <authors>Facundo Gauna (Nebbia Technology)</authors>
     <owners>Facundo Gauna (Nebbia Technology)</owners>
@@ -23,6 +23,11 @@
     <tags>amazon echo alexa speechlet servicestack service stack</tags>
     <dependencies>
       <dependency id="Nebbia.AlexaSkillsKit" version="1.6.0" />
+      <dependency id="ServiceStack" version="4.0.40" />
+      <dependency id="ServiceStack.Client" version="4.0.40"/>
+      <dependency id="ServiceStack.Common" version="4.0.40" />
+      <dependency id="ServiceStack.Interfaces" version="4.0.40" />
+      <dependency id="ServiceStack.Text" version="4.0.40" />
     </dependencies>
   </metadata>
 </package>

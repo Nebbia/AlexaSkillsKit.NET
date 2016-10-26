@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>Nebbia.AlexaSkillsKit</id>
-    <version>1.6.0-alpha</version>
+    <version>1.6.0</version>
     <title>AlexaSkillsKit.NET Web API/ServiceStack</title>
     <authors>Facundo Gauna (Nebbia Technology)</authors>
     <owners>Facundo Gauna (Nebbia Technology)</owners>

@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D35AD75F-7926-41CB-8C8D-BB36370F3E76}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\nuget.exe = .nuget\nuget.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 		.nuget\pack.debug.cmd = .nuget\pack.debug.cmd
 		.nuget\pack.release.cmd = .nuget\pack.release.cmd
